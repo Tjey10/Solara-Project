@@ -1,0 +1,453 @@
+/* -------------------------BODY STYLING ------------------------ */
+@media screen and (max-width: 1500px) {
+html{
+    height: -webkit-fill-available;
+}
+
+body{
+  background-color: white;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+/* ----NAVBAR----- */
+nav.navbar{
+    box-shadow: 0 0 2px 2px gray;
+    background-color: #000000 !important;
+   
+}
+a.navbar-brand{
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 0 0 50% 0;
+}
+
+.navbar-brand img{
+ width: 75%;
+ height: 20%;
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+
+.me-auto{
+    margin-right: 60px !important;
+    
+}
+
+button span{
+    background-color: #dfce00;
+    border: 2px solid gray;
+    border-radius: 20%;
+    
+}
+
+
+.me-auto li{
+    padding: 0 2em;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.me-auto a{
+    color: gray;
+}
+
+.me-auto a:hover{
+    color: #dfce00;
+}
+
+hr{
+    color: #000000;
+    width: 80%;
+    margin: 3em auto;
+
+   
+}
+
+/* --------------JUMBOTRON---------- */
+div.jumbotron.container-fluid{
+    max-height: 100vh;
+    padding: 0;
+    position: relative;
+    
+   
+}
+
+.jumbotron img{
+    width: 100%;
+    max-height: 100vh ;
+    object-fit: cover;
+}
+
+.jumbotron h1{
+ position: absolute;
+ text-align: center;
+ top: 0;
+ margin: 200px auto ;
+ width: 100%;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 3em ;
+ 
+}
+
+.jumbotron h1 span{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.486), rgba(255, 255, 255, 0.5));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+.meet-team{
+    width: 100%;
+    height: 50vh;
+    border: none ;
+    border-radius: 20%;
+    padding: 10px 0;
+    
+    position: relative;
+
+}
+
+.meet-team button{
+    
+    width: 35%;
+    height: 5em;
+    position: absolute;
+    left: 35%;
+    top: 65%;
+     transition: width 2s  ;
+     
+}
+
+.meet-team button h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: black;
+    display: inline-block;
+    
+}
+
+.meet-team button.btn:hover{
+   width: 40%;
+}
+
+/* INFO SECTION */
+
+.info-section .container-fluid{
+    /* background-color: #044717; */
+    margin-top: 2em;
+    color: white;
+}
+
+.row.info{
+    width: 100%;
+    padding: 30px 0;
+    margin-left: 0;
+    
+}
+
+.info1{
+   width: 50%; 
+   text-align: center;
+   background-color: rgba(4,71,23, 0.8) ;
+   background-image: #044717, 0.6 ;
+   border-radius: 5%;
+   padding: 1em 0;
+}
+
+.info1 h2{
+    width: 70%;
+    margin: 1em 2em 1em;
+    font-size: 2.4em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-top: 0.2em solid gray;
+    transition: 3s;
+    display: inline;
+    
+}
+
+.info1 h2:hover{
+    border-top: 0.2em solid black;  
+    margin-left: 1em;
+    display: inline;
+    color: black;
+    font-weight: 700;
+   
+}
+
+
+.info1 p{
+    width: 65%;
+    margin: 3em 5em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.info1-img {
+    width: 50%;  
+}
+
+.info1-img img{
+ width: 70%;
+ height: 30em;
+ padding: 20px 0;
+ border-radius:50% ;
+ margin: 2em 1em 0 4em;
+}
+
+.info2{
+    width: 50%; 
+    text-align: center;
+    background-color:white;
+    padding: 1em 0;
+    border-left: 0.1em solid grey;
+ }
+
+ .info2 h2{
+    width: 70%;
+    margin: 1em 2em 1em;
+    font-size: 2.4em;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    border-top: 0.2em solid gray;
+    transition: 3s;
+    display: inline;
+    color: #04501a;
+    
+}
+
+.info2 h2:hover{
+    border-top: 0.2em solid black;  
+    margin-left: 1em;
+    display: inline;
+    color: #04501a;
+    font-weight: 500;
+   
+}
+
+.info2 p{
+    width: 65%;
+    margin: 3em 5em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.info2-img {
+    width: 50%;  
+}
+
+.info2-img img{
+ width: 70%;
+ height: 30em;
+ padding: 20px 0;
+ border-radius:10% ;
+ margin: 2em 1em 0 4em;
+ box-shadow: 2px 1px 4px 0 yellow;
+}
+
+.insights{
+    width: 100%;
+    height: 50vh;
+    border: none ;
+    border-radius: 20%;
+    padding: 10px 0;
+    position: relative;  
+}
+
+.insights button{
+    width: 30%;
+    height: 3em;
+    position: absolute;
+    left: 35%;
+    top: 65%;
+     transition: width 2s ;
+}
+
+.insights button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: black;
+    display: inline-block;
+}
+
+.insights button.btn:hover{
+    width: 35%;
+    background-color: #000000;
+    color: white;
+ }
+
+ /* -----------------PARTNERSHIP & CONTACTS------------ */
+
+ .part-cont.container-fluid{
+    background-color: #000000;
+    margin-top: 3em;
+    padding-top: 2em;
+ }
+
+ .email{
+    border-right: 1px solid gray;
+
+ }
+
+ .email h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+     margin-bottom: 1em;
+    font-weight: 100;
+ }
+
+ .email input[type="email"]{
+    width: 80%;
+    height: 2.4em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    outline: none;
+    border-radius: 2rem;
+ }
+
+ .email input[type="submit"] {
+    background-color: white;
+    border-style: none;
+    border-radius: 10%;
+    transition: 2s;
+ }
+
+ .email input[type="submit"]:hover {
+    background-color: rgb(9, 107, 9);
+    border-style: none;
+    border-radius: 10%;
+ }
+
+ .partnership{
+    border-right: 1px solid gray;
+    
+ }
+
+ .partnership h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em; 
+ }
+
+ .partnership ul{
+    list-style: none;
+ }
+
+ .partnership ul li {
+    font-size: 1em;
+    padding: 0.6em 0;
+ }
+
+ .partnership ul li a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+ .partnership ul li a:hover{
+    color: #dfce00;
+    cursor: pointer;
+ }
+
+ .contacts{
+    padding-left: 1em;
+    /* text-align: center; */
+ }
+
+ .contacts h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    width: 60%;  
+ }
+
+ .contacts ul{
+    list-style: none;
+ }
+
+ .contacts ul li {
+    font-size: 1.2em;
+    padding: 0.6em 0;
+ }
+
+ .contacts ul li a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+ .contacts ul li a:hover{
+    color: #dfce00;
+    cursor: pointer;
+ }
+
+ .footer{
+    text-align: center;
+    padding: 4em 2em;
+ }
+
+ /* -------------- TEAMPAGE-------------- */
+ div.staff-img{
+   text-align: center;
+   margin: auto;
+   padding: 5% 0;
+   background-color: #0b832d;
+ }
+
+ div .staff-img1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+     width: 20%;
+    /* + */
+    padding: 20px 0;
+    border-radius:10% ;
+    margin: 2em 1em 0 4em;
+    box-shadow: 2px 2px 2px 0 yellow;
+ }
+
+   .staff-img div h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold; 
+    padding: 1%;
+ }
+
+ .staff-img div{
+    padding: 2%;
+ }
+
+ .staff-img div:hover{
+    transform: scale(1.2);
+    transition: transform 1s linear;
+    
+}
+}
+
+
+ /* ------------------------------------------ RESPONSIVENESS--------------------------------------------------- */
+
+ @media screen and (max-width: 800px){
+    html{
+        height: -webkit-fill-available;
+    }
+    
+    body{
+      background-color: white;
+      position: relative;
+      margin: 0;
+      height: 100%;
+    }  
+}
